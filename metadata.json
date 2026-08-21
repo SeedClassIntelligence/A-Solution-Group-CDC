@@ -1,0 +1,9 @@
+{
+  "name": "A Solution Group CDC",
+  "description": "A Solution Group\nCDC  is a generative platform that empowers entities, individuals, non-profits, and developers to transform foundational frameworks into actionable strategic documents for growth and execution.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Solution Group | Whole Community Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'seed-bg': '#F8F6F1', // Cream Base
+              'seed-text-primary': '#1B4332', // Deep Forest Green
+              'seed-text-primary-dark': '#123024', // Darker Forest Green for hover
+              'seed-text-secondary': '#2E2E2E', // Charcoal Ink
+              'seed-accent-green': '#52B788', // Fern Green
+              'seed-accent-green-dark': '#40916C', // Darker Fern Green for hover
+              'seed-bg-light': '#D8EED8', // Soft Sage
+
+              // Dark theme colors
+              'seed-bg-dark': '#0D1B14',
+              'seed-surface-dark': '#152A21',
+              'seed-text-primary-dark-theme': '#E0F2E9',
+              'seed-text-secondary-dark-theme': '#A3B3AD',
+              'seed-border-dark': '#2A4B3A',
+            },
+            fontFamily: {
+              'serif': ['"Playfair Display"', 'serif'],
+              'sans': ['"Inter"', 'sans-serif'],
+            },
+            keyframes: {
+              'fade-in': {
+                '0%': { opacity: '0', transform: 'translateY(5px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+            animation: {
+              'fade-in': 'fade-in 0.5s ease-out forwards',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.548.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-seed-bg dark:bg-seed-bg-dark font-sans overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
