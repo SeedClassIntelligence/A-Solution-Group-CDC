@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Logo } from './Logo';
-import { wcsFrameworkPillars } from '../constants/frameworks';
+import { wcsFrameworkPillars } from './frameworks';
 import { 
   BookOpen, 
   Download, 

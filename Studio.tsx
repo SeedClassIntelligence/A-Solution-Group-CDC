@@ -1,11 +1,11 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { getAiResponse, getAiReflection, getTextToSpeech, getAiSuggestions, getAiRefinement, GroundingSource } from '../services/geminiService';
+import { getAiResponse, getAiReflection, getTextToSpeech, getAiSuggestions, getAiRefinement, GroundingSource } from './geminiService';
 import { Header } from './Header';
 import { Sidebar } from './Sidebar';
 import { IntegrationsPanel } from './IntegrationsPanel';
 import { GoogleDrivePicker } from './GoogleDrivePicker';
 import { FeedbackModal } from './FeedbackModal';
-import { caseStudies } from '../constants/caseStudies';
+import { caseStudies } from './caseStudies';
 // Added ArrowRight to the imports from lucide-react
 import { Loader, Send, ThumbsUp, ThumbsDown, RefreshCw, Paperclip, Edit, Copy, Check, Mic, MicOff, Star, DownloadCloud, Printer, FileText, BrainCircuit, X, Volume2, StopCircle, PenSquare, Megaphone, Globe, MapPin, Sparkles, LayoutTemplate, ArrowRight } from 'lucide-react';
 

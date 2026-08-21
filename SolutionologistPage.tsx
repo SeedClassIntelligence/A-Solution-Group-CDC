@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { backendService } from '../services/backendService';
+import { backendService } from './backendService';
 import { Building2, HeartHandshake, Zap, Palette, HeartPulse, GraduationCap, Recycle, Waypoints, Handshake, Users2, Rocket, CheckCircle, Bookmark, Loader, ArrowRight, Star, ShieldCheck, Key } from 'lucide-react';
 
 type SolutionologistPageProps = {

@@ -1,26 +1,26 @@
 
 import React, { useState, useEffect } from 'react';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { Studio } from './components/Studio';
-import { CaseStudiesPage } from './components/CaseStudiesPage';
-import { SystemsImpactPage } from './components/SystemsImpactPage';
-import { SolutionologistPage } from './components/SolutionologistPage';
-import { FrameworksPage } from './components/FrameworksPage';
-import { ConsultingPage } from './components/ConsultingPage';
-import { ServicesPage } from './components/ServicesPage';
-import { COIPPage } from './components/COIPPage';
-import { FamiliesPage } from './components/FamiliesPage';
-import { AboutPage } from './components/AboutPage';
-import { ProgramsPage } from './components/ProgramsPage';
-import { ContactPage } from './components/ContactPage';
-import { DonationPage } from './components/DonationPage';
-import { AdminDashboard } from './components/AdminDashboard';
-import { EbookPage } from './components/EbookPage';
-import { StrategicEcosystemPage } from './components/StrategicEcosystemPage';
-import { ContactModal } from './components/ContactModal';
-import { FeedbackModal } from './components/FeedbackModal';
-import { AssessmentModal } from './components/AssessmentModal';
+import { Header } from './Header';
+import { Footer } from './Footer';
+import { Studio } from './Studio';
+import { CaseStudiesPage } from './CaseStudiesPage';
+import { SystemsImpactPage } from './SystemsImpactPage';
+import { SolutionologistPage } from './SolutionologistPage';
+import { FrameworksPage } from './FrameworksPage';
+import { ConsultingPage } from './ConsultingPage';
+import { ServicesPage } from './ServicesPage';
+import { COIPPage } from './COIPPage';
+import { FamiliesPage } from './FamiliesPage';
+import { AboutPage } from './AboutPage';
+import { ProgramsPage } from './ProgramsPage';
+import { ContactPage } from './ContactPage';
+import { DonationPage } from './DonationPage';
+import { AdminDashboard } from './AdminDashboard';
+import { EbookPage } from './EbookPage';
+import { StrategicEcosystemPage } from './StrategicEcosystemPage';
+import { ContactModal } from './ContactModal';
+import { FeedbackModal } from './FeedbackModal';
+import { AssessmentModal } from './AssessmentModal';
 import { 
   AlertTriangle, ArrowRight, ShieldAlert, Users, Zap, HeartPulse, DoorOpen, 
   Quote, CheckCircle, Landmark, Rocket, Users2, HardHat, Home, FileText, 
