@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { X, Loader, ArrowRight, FileText, CheckCircle, Calendar } from 'lucide-react';
-import { backendService } from '../services/backendService';
+import { backendService } from './backendService';
 
 type AssessmentModalProps = {
   isOpen: boolean;

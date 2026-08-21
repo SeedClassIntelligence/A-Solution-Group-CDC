@@ -3,7 +3,7 @@ import React, { useState, useRef } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { Logo } from './Logo';
-import { backendService, SystemSettings, FormSubmission } from '../services/backendService';
+import { backendService, SystemSettings, FormSubmission } from './backendService';
 import { 
   ShieldCheck, 
   CreditCard, 

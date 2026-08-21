@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { X, Loader } from 'lucide-react';
-import { backendService } from '../services/backendService';
+import { backendService } from './backendService';
 
 type ContactModalProps = {
   isOpen: boolean;

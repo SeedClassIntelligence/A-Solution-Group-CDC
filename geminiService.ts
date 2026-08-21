@@ -1,6 +1,6 @@
 import { GoogleGenAI, Modality, GenerateContentResponse, Type } from "@google/genai";
-import { SYSTEM_INSTRUCTION, REFLECTION_INSTRUCTION, SUGGESTION_GENERATION_INSTRUCTION, REFINEMENT_INSTRUCTION } from '../constants/prompts';
-import { caseStudies } from '../constants/caseStudies';
+import { SYSTEM_INSTRUCTION, REFLECTION_INSTRUCTION, SUGGESTION_GENERATION_INSTRUCTION, REFINEMENT_INSTRUCTION } from './prompts';
+import { caseStudies } from './caseStudies';
 
 type Message = {
   role: 'user' | 'assistant';
