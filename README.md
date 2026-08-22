@@ -18,3 +18,14 @@ View your app in AI Studio: https://ai.studio/apps/5e744bc3-8fe1-41a4-ab00-6d5bb
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to Cloudflare
+
+This repo deploys as a static-assets Worker via [`wrangler.jsonc`](wrangler.jsonc).
+
+In the Cloudflare dashboard, under the project's **Settings → Build**:
+- **Build command:** `npm run build`
+- **Deploy command:** `npx wrangler deploy` (deploys `dist/` per `wrangler.jsonc`)
+- **Environment variable:** `GEMINI_API_KEY` set to a real Gemini API key (the AI-powered pages call it at runtime)
+
+Pushing to the connected branch triggers a new build automatically.
